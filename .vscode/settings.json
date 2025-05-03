@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 19,
+    "files.autoSave": "afterDelay",
+    "editor.cursorStyle": "line",
+    "editor.multiCursorModifier": "alt",
+    "workbench.activityBar.location": "default"
+}
