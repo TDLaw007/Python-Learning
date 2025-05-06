@@ -12,21 +12,18 @@ age = input ("How old are you? ")
 score = int(score)
 age = int(age)
 grade = score
-grade = str
-
 if score >= 90:
     grade = "A"
 elif score >= 80:
-    grade = ("B")
+    grade = "B"
 elif score >= 70:
-    grade = ("C")
+    grade = "C"
 elif score >= 60:
-    grade = ("D")
-else:
-    grade = ("F")
+    grade = "D"
+    if age <= 11:
+        print(f"you've got {grade}+")
+    else:
+        print(f"you've got {grade}")
 
-
-if age <= 11:
-    print(f"Great job! you've got an {grade}+")
 else:
-    print(f"Good job! you've got an {grade}")
+    print("Next time study hard...:)")
